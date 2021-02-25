@@ -60,6 +60,26 @@
     transition: background-color 0.3s;
 }
 
-.startCdButton:hover {
+
+
+.startCdButton:not(:disabled):hover {
     background: var(--blue-dark);
+}
+
+.startCdButtonActive {
+    background: var(--white);
+    color: var(--text);
+}
+
+.startCdButtonActive:not(:disabled):hover {
+    background: var(--red);
+    color: var(--white);
+}
+
+.startCdButton:disabled {
+    background: var(--white);
+    color: var(--text);
+    cursor: not-allowed;
+
+    border-bottom: 5px solid var(--green);
 }
