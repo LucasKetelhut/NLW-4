@@ -1,3 +1,4 @@
+import { url } from 'inspector';
 import { useContext } from 'react';
 import { CountdownContext } from '../contexts/CountdownContext';
 import styles from '../styles/components/Countdown.module.css';
@@ -43,7 +44,7 @@ export function Countdown() {
             ) : (
                 <>
                 { isActive ? (
-                <button 
+                <button
                     type="button" 
                     className={`${styles.startCdButton} ${styles.startCdButtonActive}`}
                     onClick={resetCountdown}
