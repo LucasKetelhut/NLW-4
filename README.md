@@ -1,5 +1,6 @@
 # NLW-4 (Trilha React)
-Aplicação desenvolvida durante a quarta edição da Next Level Week, organizada pela Rocketseat. Um evento que dura uma semana toda, voltada pra o desenvolvimento profissional dos participantes, em busca de um próximo nível. Aulas são soltadas todo dia de segunda a sexta e todo conteúdo é retirado do ar no final do domingo.
+Aplicação desenvolvida durante a quarta edição da Next Level Week, organizada pela Rocketseat. Um evento que dura uma semana toda, voltada pra o desenvolvimento profissional dos participantes, em busca de um próximo nível. As aulas são publicadas todos os dias de segunda a sexta e todo conteúdo é retirado do ar no final do domingo.
+
 
 ![](public/print.png)
 
